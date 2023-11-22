@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace
+}
+header{
+    height: 10vh;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 15%;
+    height: 5vh;
+}
+
+#content p{
+    font-size: x-large;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-top: 2%;
+    gap: 2%;
+}
+.card{
+    border: 1px solid #333333;
+    width: 300px;
+    margin-bottom: 25px;
+}
